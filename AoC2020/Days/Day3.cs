@@ -37,13 +37,10 @@ namespace AoC2020.Days
             while (true)
             {
                 y += yoff;
-                x += xoff;
+                x = (x + xoff) % maxX;
 
                 if (y >= map.Length)
                     break;
-
-                if (x >= maxX)
-                    x = x - maxX;
 
                 if (map[y][x] == hit)
                     hits++;
