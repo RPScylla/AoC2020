@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace AoC2020.Days
 {
-    class Day2
+    class Day02
     {
-        public Day2()
+        public Day02()
         {
-            string[] lines = File.ReadAllLines("Days/Input/Day2.txt");
+            string[] lines = File.ReadAllLines("Days/Input/Day02.txt");
 
             int validPartA = 0;
             int validPartB = 0;

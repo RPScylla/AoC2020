@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace AoC2020.Days
 {
-    class Day1
+    class Day01
     {
-        public Day1()
+        public Day01()
         {
-            string[] lines = File.ReadAllLines("Days/Input/Day1.txt");
+            string[] lines = File.ReadAllLines("Days/Input/Day01.txt");
 
             int[] ints = lines.Select(int.Parse).ToArray();
 
