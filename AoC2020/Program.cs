@@ -11,7 +11,7 @@ namespace AoC2020
     {
         static void Main(string[] args)
         {
-            new Day05();
+            new Day06();
             Console.ReadKey();
         }
     }
