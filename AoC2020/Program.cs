@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,11 @@ namespace AoC2020
     {
         static void Main(string[] args)
         {
-            new Day09();
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            new Day10();
+            stopwatch.Stop();
+            Console.WriteLine($"Total Time: {stopwatch.ElapsedMilliseconds / 1000f}");
             Console.ReadKey();
         }
     }
