@@ -11,8 +11,6 @@ namespace AoC2020.Days
 {
     class Day10
     {
-        const int PREAMBLE_SIZE = 25;
-
         public Day10()
         {
             List<int> input = File.ReadAllLines("Days/Input/Day10.txt").Select(int.Parse).ToList();
