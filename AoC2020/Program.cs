@@ -14,7 +14,7 @@ namespace AoC2020
         {
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            new Day17();
+            new Day18();
             stopwatch.Stop();
             Console.WriteLine($"Total Time: {stopwatch.ElapsedMilliseconds}ms");
             Console.ReadKey();
